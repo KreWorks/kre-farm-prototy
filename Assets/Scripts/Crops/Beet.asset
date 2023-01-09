@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274cad71359e2f64b812d3cc94562222, type: 3}
+  m_Name: Beet
+  m_EditorClassIdentifier: 
+  plantName: Beet
+  seedPrice: 40
+  fruitPrice: 160
+  growTime: 10
+  maxWater: 200
+  seedStage: {fileID: 799994821196863707, guid: 2c9062a89300463488aee2201e05c0de,
+    type: 3}
+  growStages:
+  - {fileID: 919132149155446097, guid: fda8d2e2e7ff71844a2d543d628fa534, type: 3}
+  - {fileID: 919132149155446097, guid: c1d12f63982400644ba6db93f77638e1, type: 3}
+  - {fileID: 919132149155446097, guid: 2b965ccd61cb88e4fa96f1aae504f90d, type: 3}
+  harvestStage: {fileID: 919132149155446097, guid: baef1b6c5d5002a40828e2f8cf7043ad,
+    type: 3}
+  witherStage: {fileID: 919132149155446097, guid: f51c09562807f05439677fd1719e88b7,
+    type: 3}
+  fruit: {fileID: 919132149155446097, guid: 7bce1928c2028dc428c7699288fa7a21, type: 3}

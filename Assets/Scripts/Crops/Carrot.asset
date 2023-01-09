@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274cad71359e2f64b812d3cc94562222, type: 3}
+  m_Name: Carrot
+  m_EditorClassIdentifier: 
+  plantName: Carrot
+  seedPrice: 10
+  fruitPrice: 60
+  growTime: 5
+  maxWater: 120
+  seedStage: {fileID: 2075920647943158727, guid: d87e571e64e4cb64db85b9cecd5a9a0a,
+    type: 3}
+  growStages:
+  - {fileID: 919132149155446097, guid: 7474e2ce44efef5449f112fef76b2dfb, type: 3}
+  - {fileID: 919132149155446097, guid: 6f283c8ee2aff8a47a2a95d0cf09ed54, type: 3}
+  - {fileID: 919132149155446097, guid: 3e33b25e74c95c64a97a6298e1e44723, type: 3}
+  harvestStage: {fileID: 919132149155446097, guid: f60d26d4528f419478923903110ff815,
+    type: 3}
+  witherStage: {fileID: 919132149155446097, guid: 3142856edf0843f409448a0d1618f4c6,
+    type: 3}
+  fruit: {fileID: 919132149155446097, guid: 1f9c3e67f2e7f2b4da46f1444f461573, type: 3}
